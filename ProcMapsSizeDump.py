@@ -27,7 +27,7 @@ def human_format(number):
 while(True):
 
     try:
-        map_line = input()
+        map_line = raw_input()
     except EOFError:
         break
 	
